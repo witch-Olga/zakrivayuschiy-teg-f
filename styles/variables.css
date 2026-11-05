@@ -4,6 +4,8 @@
     --font: "Inter-Variable";
     --accent-font: "Press Start 2P";
     --font-size: 1.125rem;
+    --font-weight: 400;
+    --font-weight-bold: 785;
     --background-gradient: repeating-linear-gradient(90deg, #d3d3d3, transparent),  repeating-linear-gradient(0deg, #d3d3d3, transparent), linear-gradient(#e7e7e7, #1a1a1a);
     --background-color: #fff;
     --color: #000;

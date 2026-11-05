@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font, "Inter-Variable"), sans-serif;
-  font-variation-settings: 'wdth' 400;
+  font-variation-settings: 'wdth' var(--font-weight, 400);
   background-image: var(--background-gradient);
   background-size: 2px 2px, 2px 2px, cover;
   color: var(--color);
@@ -65,7 +65,7 @@
 .card__title {
   padding: 4px 10px;
   font-size: var(--font-size, 18px);
-  font-variation-settings: 'wdth' 785;
+  font-variation-settings: 'wdth' var(--font-weight-bold, 785);
 }
 
 .card__img-container {
