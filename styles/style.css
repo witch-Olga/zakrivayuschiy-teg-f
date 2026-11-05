@@ -65,7 +65,7 @@
 .card__title {
   padding: 4px 10px;
   font-size: var(--font-size, 18px);
-  font-weight: var(--font-weight-bold);
+  font-variation-settings: 'wdth' var(--font-weight-bold, 785);
 }
 
 .card__img-container {
@@ -179,7 +179,7 @@
 
 .button__icon {
   mix-blend-mode: difference;
-  fill: var(--background-color, #fff);  
+  fill: var(--background-color, #fff);
 }
 
 .card__buttons-group {
@@ -244,12 +244,12 @@
 
 .like-icon.is-liked .core {
   fill: var(--animation-fill-color);
-  transition-delay: 0s;  
+  transition-delay: 0s;
 }
 
 .like-icon.is-liked .main-body {
   fill: var(--animation-fill-color);
-  transition-delay: 0.05s;  
+  transition-delay: 0.05s;
 }
 
 .like-icon.is-liked .heart {
@@ -257,7 +257,7 @@
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks 0.3s ease-in 0.3s 1;  
+  animation: sparks 0.3s ease-in 0.3s 1;
 }
 
 .card__icon-button:focus {
@@ -292,7 +292,7 @@
   row-gap: 30px;
   column-gap: 20px;
   padding: 30px;
-  border: var(--border-width, 2px) solid var(--color, #000);  
+  border: var(--border-width, 2px) solid var(--color, #000);
 }
 
 .dialog::backdrop {
