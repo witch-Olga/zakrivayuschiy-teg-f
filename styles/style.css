@@ -184,7 +184,8 @@
 
 .button__icon {
   mix-blend-mode: difference;
-  fill: var(--background-color, #fff);
+  fill: currentColor;
+  color: var(--background-color, #fff);
 }
 
 .card__buttons-group {
@@ -307,7 +308,7 @@
   grid-template-columns: 39px 1fr;
   row-gap: 30px;
   column-gap: 20px;
-  padding: 30px 40px;
+  padding: 30px;
   border: var(--border-width, 2px) solid var(--color, #000);
 }
 
@@ -317,14 +318,17 @@
 
 .button-ok {
   line-height: 90%;
-  width: 293px;
+  width: 290px;
   height: 38px;
 }
 
 @media (width <= 375px) {
   
+  .dialog[open] {
+    padding: 30px 40px;    
+  }
   .button-ok {
-    width: 261px;
-  }  
+    width: 258px;
+  }
 
 }
